@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple registration page</title>
+  </head>
+  <body>
+    <main class="registration">
+      <div class="registration-form">
+        <div class="reigstration-form-wrapper">
+          <h1 class="registration-form-title">Register</h1>
+          <form action="">
+            <div class="input-wrapper">
+              <label for="name">Name*</label>
+              <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="last_name">Last name*</label>
+              <input
+                type="text"
+                id="last_name"
+                placeholder="Enter your last name"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email">Email*</label>
+              <input type="text" id="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="password">Password*</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Create a password"
+              />
+            </div>
+
+            <div class="form-ctas">
+              <button type="submit" class="submit-default">Get started</button>
+
+              <button type="submit" class="google">
+                <img src="./Social icon.svg" alt="" />
+                <span>Sign in with Google</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="registration-image">
+        <img class="" src="./registration-img.png" alt="" />
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
