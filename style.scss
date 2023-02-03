@@ -24,14 +24,15 @@ input {
 body {
   margin: 0;
   min-width: 320px;
-  // min-height: 100vh;
   height: 100vh;
+  min-height: 600px;
   background-color: #fff;
 }
 
 .registration {
   display: flex;
   height: 100vh;
+  min-height: 600px;
 
   .registration-form,
   .registration-image {
